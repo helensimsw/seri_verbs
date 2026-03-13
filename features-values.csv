@@ -1,0 +1,19 @@
+"value_id","label","feature","comment","POS","canonical_order"
+1,"first","subject person",,"verb",1
+2,"second","subject person",,"verb",2
+3,"third","subject person",,"verb",3
+"sg","singular","subject number",,"verb",1
+"pl","plural","subject number",,"verb",2
+"neut","neutral","event number",,"verb",1
+"mult","multiple","event number",,"verb",2
+"dist","distributive","event number","Only with singular person number","verb",3
+"real-mi","realis-mi","mood",,"verb",1
+"real-t","realis-t","mood",,"verb",2
+"real-yo","realis-yo","mood",,"verb",3
+"real-emph","emphatic realis","mood",,"verb",4
+"irr-dep","dependent irrealis","mood",,"verb",5
+"irr-indep","independent irrealis","mood",,"verb",6
+"pos","positive","polarity",,"verb",1
+"neg","negative","polarity",,"verb",2
+"inf","infinitive","part of speech",,"verb",2
+"nmlz","subject nominalisation","part of speech","UniMorph schema recommends using finiteness feature instead","verb",3
