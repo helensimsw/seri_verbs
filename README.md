@@ -16,11 +16,13 @@ TO ADD
 
 ## Sources
 
-The primary source of this data is Moser and Marlett (2010):
+The primary source of this data is Moser and Marlett (2008):
 
-Moser, M. B., & Marlett, S. A. 2010. *Comcáac quih yaza quih hant ihíip hac: Diccionario seri-español-inglés con índices español - seri, inglés -seriycon gramática* (2nd ed.). Editorial UniSon / Plaza y Valdés Editores. https://www.sil.org/system/files/reapdata/10/33/81/103381195691201622442706606620865373126/sei_diccionario_ed2.pdf
+Moser, M. B., & Marlett, S. A. 2008. *Comcáac quih yaza quih hant ihíip hac: Diccionario seri-español-inglés con índices español - seri, inglés -seri* (First edition, electronic version). Editorial UniSon / Plaza y Valdés Editores. 
 
-(Add reference for the grammar too)
+Some example paradigms were also taken from Marlett (2016):
+
+Marlett, S. A. 2016. *Cmiique Iitom: the Seri language* [Unpublished grammar]
 
 ## How the data was prepared
 
