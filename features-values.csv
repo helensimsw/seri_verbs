@@ -13,7 +13,12 @@
 "real-emph","emphatic realis","mood",,"verb",4
 "irr-dep","dependent irrealis","mood",,"verb",5
 "irr-indep","independent irrealis","mood",,"verb",6
+"imp","imperative","mood","Implicitly 2nd person subject","verb",7
+"act","active","voice",,"verb",1
+"pass","passive","voice",,"verb",2
 "pos","positive","polarity",,"verb",1
 "neg","negative","polarity",,"verb",2
 "inf","infinitive","part of speech",,"verb",2
-"nmlz","subject nominalisation","part of speech","UniMorph schema recommends using finiteness feature instead","verb",3
+"sub-nmlz","subject nominalization","part of speech",,"verb",3
+"obl-nmlz","oblique nominalization","part of speech",,"verb",4
+"obj-nmlz","object nominalization","part of speech",,"verb",5
