@@ -14,8 +14,7 @@
 "irr-dep","dependent irrealis","mood",,"verb",5
 "irr-indep","independent irrealis","mood",,"verb",6
 "imp","imperative","mood","Implicitly 2nd person subject","verb",7
-"act","active","voice",,"verb",1
-"pass","passive","voice",,"verb",2
+"pass","passive","voice","contrasts implicitly with active only for transitive verbs","verb",2
 "pos","positive","polarity",,"verb",1
 "neg","negative","polarity",,"verb",2
 "inf","infinitive","part of speech",,"verb",2
