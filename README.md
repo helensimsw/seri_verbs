@@ -50,7 +50,7 @@ This data was derived automatically from electronic dictionary data. While we ha
 
 #### Paradigm structure
 - For the vast majority of verbs, only the subparadigm of the realis-t.pos.3 is listed. This is sufficient to show how forms of different number values (for person and event number) relate to each other; other morphosyntactic distinctions are marked by prefixes which attach to the person stems.
-- We give a broader range of forms, illustrative of the whole paradigms, for the sample of verbs listed in Moser & Marlett (2008) and Marlett (2016).  For two verbs (intransitive *cfit* and transitive *csanj*), near-full paradigms are given (these are listed in the appendix of Moser & Marlett (2008).
+- We give a broader range of forms, illustrative of the whole paradigms, for the sample of verbs listed in Moser & Marlett (2008) and Marlett (2016).  For two verbs (intransitive *cfit* and transitive *csanj*), near-full paradigms are given (these are listed in the appendix of Moser & Marlett (2008)).
 
 #### Distributives
 - Where three singular forms are listed, one of which has the suffix -tim/-im, we analyse the first form listed as having neutral event number, and of the remaining two forms, we analyse the form in -tim/im as multiple and the other as distributive
