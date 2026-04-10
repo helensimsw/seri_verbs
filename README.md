@@ -28,37 +28,38 @@ Marlett, S. A. 2016. *Cmiique Iitom: the Seri language* [Unpublished grammar]
 
 This data was derived automatically from electronic dictionary data. While we have made reasonable efforts to validate the output manually, some errors may remain. In particular:
 - the `gloss` given in `lexemes.csv` has been automatically translated from Spanish, and may not be fully accurate. This data should not be relied on for semantic information.
-- Some lexemes listed in `lexemes.csv` could not be parsed, and therefore do not appear in `forms.csv`
+- Some lexemes listed in `lexemes.csv` could not be parsed automatically, and therefore do not appear in `forms.csv`
 - Where multiple paradigms are listed in the dictionary for a single headword, these have been interpreted as multiple homophonous lexemes for the purposes of this data. Homophonous lexemes are indicated with numerical extensions in the `lexeme_id` field, e.g. `"quip_2"`.
 
 ## Notes on the analysis
 
 ### Orthography
 - The forms in `forms.csv` are given in a conventional transcription ('practical orthography') in the column `orth_form`, and in an IPA based transcription in the column `phon_form`. 
-- Individual segments are separated by spaces. 
+- Phonological forms are represented as space-separated sequences of segments.
 - Correspondences between graphemes and phonemes are given in the table `graphemes.csv`. 
-- The phonemes are described in more detail in `sounds.csv`.
-- Some orthographic forms contain spaces. This reflects orthographic convention, but they are morphologically a single inflected word (i.e. these are not periphrastic constructions)
+- The phonemes are described in more detail in `sounds.csv`, and their IPA equivalents are given.
+- Some orthographic forms contain spaces. This reflects orthographic convention, but they are morphologically a single inflected word (i.e. these are not periphrastic constructions).
+- Some lexemes have the initial character †, indicating obsolete or archaic lexemes.
 
 ### Phonology
 - The forms listed in the `phon_form` field of `forms.csv`  are phonological forms, rather than phonetic.
 - Stress is not currently indicated. We hope to change this in a future version of the dataset.
-- TO ADD: epenthetic i- in some forms not indicated.
+- Forms which begin with a consonant cluster have an initial epenthetic *i-*, which is phonetically regular and is not represented in this dataset.
 
 ### Morphosyntax
 
 #### Paradigm structure
-- For the vast majority of verbs, only the subparadigm of the realis-t.pos.3 is listed. This is sufficient to show how forms of different number values (for person and event number) relate to each other.
-- We give a broader range of forms, illustrative of the whole paradigms, for the sample of verbs listed in (add references to back of grammar + dictionary).
-- ADD SOMETHING ON VOICE 
+- For the vast majority of verbs, only the subparadigm of the realis-t.pos.3 is listed. This is sufficient to show how forms of different number values (for person and event number) relate to each other; other morphosyntactic distinctions are marked by prefixes which attach to the person stems.
+- We give a broader range of forms, illustrative of the whole paradigms, for the sample of verbs listed in Moser & Marlett (2008) and Marlett (2016).  For two verbs (intransitive *cfit* and transitive *csanj*), near-full paradigms are given (these are listed in the appendix of Moser & Marlett (2008).
 
 #### Distributives
 - Where three singular forms are listed, one of which has the suffix -tim/-im, we analyse the first form listed as having neutral event number, and of the remaining two forms, we analyse the form in -tim/im as multiple and the other as distributive
-- Where a distributive is not explicitly listed, we assume the distributive is syncretic with the multiple
-- (Add references)
+- Where a distributive is not explicitly listed, we assume the distributive is syncretic with the multiple.
+- (Add references?)
 
 #### Omitted features and values
 - There are additional 1sg emphatic forms, which are unrelated to the emphatic realis mood (`real-emph`). We do not list these.
-- We do not give indefinite forms (unmarked for subject person)
-- We don't include object marking. The 3rd person transitive forms encode a 3rd person object (the i- prefix represents 3>3). other forms implicitly have 3rd person objects.  
+- We do not give indefinite/antipassive forms (unmarked for subject person)
+- We encode forms which are not explicitly passive as unmarked for voice, rather than active.
+- We don't include object marking. The 3rd person transitive forms encode a 3rd person object (the *i-* prefix represents a third person subject acting on a third person object). Other forms implicitly have 3rd person objects.  
 
